@@ -156,42 +156,42 @@ export const homeAbout = [
 
   export const team = [
     {
-      cover: "Parthivi.jpg",
+      cover: "./img/Parthivi.jpg",
       name: "Parthivi Sahu",
       work: "WEB DEVELOPMENT",
     },
     {
-      cover: "Anamika.jpg",
+      cover: "./img/Anamika.jpg",
       name: "Anamika Mittal",
       work: "MANAGEMENT",
     },
     {
-      cover: "Alisha.jpg",
+      cover: "./img/Alisha.jpg",
       name: "Alisha Verma",
       work: "SOCIAL MEDIA ",
     },
     {
-      cover: "Samragnee.jpg",
+      cover: "./img/Samragnee.jpg",
       name: "Samragnee Bose",
       work: "UX DESIGN",
     },
     {
-      cover: "Sashwat.jpg",
+      cover: "./img/Sashwat.jpg",
       name: "Sashwat Kumar Verma",
       work: "UI/UX DESIGN",
     },
     {
-      cover: "Shivangi.jpg",
+      cover: "./img/Shivangi.jpg",
       name: "Shivangi Dhakad",
       work: "UI DESIGN",
     },
     {
-      cover: "Kishan.jpg",
+      cover: "./img/Kishan.jpg",
       name: "Kishan Chukka",
       work: "CONTENT",
     },
     {
-      cover: "Ruthik.jpg",
+      cover: "./img/Ruthik.jpg",
       name: "Ruthik Sai",
       work: "COMMUNICATIONS",
     },

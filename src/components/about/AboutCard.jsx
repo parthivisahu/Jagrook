@@ -3,6 +3,7 @@ import Title from '../common/title/Title'
 import { homeAbout } from '../../dummydata'
 import AWrapper from './AWrapper'
 import "./about.css"
+import worker from "./../../img/sanitation-worker.jpg"
 
 const AboutCard = () => {
   return (
@@ -10,7 +11,7 @@ const AboutCard = () => {
     <section className='aboutHome'>
         <div className="container flexSB">
             <div className="left row">
-                <img src='../sanitation-worker.jpg' alt="" />
+                <img src={worker} alt="" />
             </div>
             <div className="right row">
             <div className="items">

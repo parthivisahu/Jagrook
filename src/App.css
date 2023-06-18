@@ -102,7 +102,7 @@ p {
 }
 
 .back {
-  background-image: url("/public/about_us.png");
+  background-image: url("./img/about_us.png");
   background-size: cover;
   background-attachment: fixed;
   position: absolute;
@@ -205,7 +205,7 @@ p {
 
 
 .back2 {
-  background-image: url("/public/Lets_support.png");
+  background-image: url("./img/Lets_support.png");
   background-size: cover;
   background-attachment: fixed;
   position: absolute;
@@ -239,7 +239,7 @@ p {
 
 
 .back3 {
-  background-image: url("../public/team.png");
+  background-image: url("./img/team.png");
   background-size: cover;
   background-attachment: fixed;
   position: absolute;
@@ -278,7 +278,7 @@ p {
 
 
 .back4 {
-  background-image: url("../public/team.png");
+  background-image: url("./img/team.png");
   background-size: cover;
   background-attachment: fixed;
   position: absolute;

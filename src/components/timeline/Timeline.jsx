@@ -1,5 +1,6 @@
 import React from 'react'
 import "./timeline.css"
+import timeline from "../../img/Timeline.png"
 const Timeline = () => {
   return (
     <>
@@ -11,7 +12,7 @@ const Timeline = () => {
         <hr className='hr1'></hr>
             <br />
             <br />
-            <img className='img1' src="Timeline.png" alt='' />
+            <img className='img1' src={timeline} alt='' />
             <br />
             <br />
     </div>

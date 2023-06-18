@@ -1,12 +1,12 @@
 import React from 'react'
-
+import logo from "./../../../img/logo_jagrook.png";
 export const Head = () => {
   return (
     <div>
         <section className='head'>
             <div className='container flexSB'>
                 <div className="logo"> 
-                    <img src="/logo_jagrook.png" alt=''/>
+                    <img src= {logo} alt=''/>
                 </div>
                 <div className="social">
                 <a href="https://instagram.com/project_jagrook?igshid=ZGUzMzM3NWJiOQ=="><i className='fab fa-instagram icon'></i></a>

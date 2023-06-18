@@ -17,14 +17,16 @@ export const App = () => {
       
       <Router> 
       <Header />
+      <Route path='/' exact component ={Home} active />
+      
         <Switch>
-            <Route path='/' exact component ={Home} />
-            <Route path="/about" exact component={About} />
-            <Route path="/schemes" exact component={Schemes} />
-            <Route path="/team" exact component={Team} />
-            <Route path="/gallery" exact component={Gallery} />
-            <Route path="/contact" exact component={Contact} />
-            <Route path="/support" exact component={Support} />
+           
+            <Route path="/about" component={About} />
+            <Route path="/schemes" component={Schemes} />
+            <Route path="/team"  component={Team} />
+            <Route path="/gallery" component={Gallery} />
+            <Route path="/contact" component={Contact} />
+            <Route path="/support" component={Support} />
         </Switch>
         <br />
         <Footer />

@@ -11,7 +11,7 @@ export const Header = () => {
         <header>
             <nav className='flexSB'>
                 <ul className={click ? "mobile-nav" : "flexSB"} onClick={() => setClick(false)}>
-                    <li><Link to ="/">Home</Link></li>
+                    <li><Link to ="/" active>Home</Link></li>
                     <li><Link to ="/schemes">Schemes</Link></li>
                     <li><Link to ="/about">About</Link></li>
                     <li><Link to ="/team">Team</Link></li>

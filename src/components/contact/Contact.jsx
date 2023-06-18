@@ -1,7 +1,7 @@
 import React from "react"
 import BackContact from "../common/back/BackContact"
 import "./contact.css"
-
+import logo from "../../img/logo_jagrook.png"
 const Contact = () => {
   
   return (
@@ -13,7 +13,7 @@ const Contact = () => {
         <div className='container shadow flexSB'>
      
           <div className='left row'>
-           <img  className="imgco" src="logo_jagrook.png" alt=" " />
+           <img  className="imgco" src={logo} alt=" " />
           </div>
           <div className='right row'>
             <h1>Contact us</h1>
