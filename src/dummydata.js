@@ -156,42 +156,42 @@ export const homeAbout = [
 
   export const team = [
     {
-      cover: "src/img/Parthivi.jpg",
+      cover: "https://github.com/parthivisahu/Jagrook/blob/10447a61c030a6132826addeb58f246891cfed3e/src/img/Parthivi.jpg",
       name: "Parthivi Sahu",
       work: "WEB DEVELOPMENT",
     },
     {
-      cover: "src/img/Anamika.jpg",
+      cover: "https://github.com/parthivisahu/Jagrook/blob/10447a61c030a6132826addeb58f246891cfed3e/src/img/Anamika.jpg",
       name: "Anamika Mittal",
       work: "MANAGEMENT",
     },
     {
-      cover: "src/img/Alisha.jpg",
+      cover: "https://github.com/parthivisahu/Jagrook/blob/10447a61c030a6132826addeb58f246891cfed3e/src/img/Alisha.jpg",
       name: "Alisha Verma",
       work: "SOCIAL MEDIA ",
     },
     {
-      cover: "src/img/Samragnee.jpg",
+      cover: "https://github.com/parthivisahu/Jagrook/blob/10447a61c030a6132826addeb58f246891cfed3e/src/img/Samragnee.jpg",
       name: "Samragnee Bose",
       work: "UX DESIGN",
     },
     {
-      cover: "src/img/Sashwat.jpg",
+      cover: "https://github.com/parthivisahu/Jagrook/blob/10447a61c030a6132826addeb58f246891cfed3e/src/img/Sashwat.jpg",
       name: "Sashwat Kumar Verma",
       work: "UI/UX DESIGN",
     },
     {
-      cover: "src/img/Shivangi.jpg",
+      cover: "https://github.com/parthivisahu/Jagrook/blob/10447a61c030a6132826addeb58f246891cfed3e/src/img/Shivangi.jpg",
       name: "Shivangi Dhakad",
       work: "UI DESIGN",
     },
     {
-      cover: "src/img/Kishan.jpg",
+      cover: "https://github.com/parthivisahu/Jagrook/blob/10447a61c030a6132826addeb58f246891cfed3e/src/img/Kishan.jpg",
       name: "Kishan Chukka",
       work: "CONTENT",
     },
     {
-      cover: "src/img/Ruthik.jpg",
+      cover: "https://github.com/parthivisahu/Jagrook/blob/10447a61c030a6132826addeb58f246891cfed3e/src/img/Ruthik.jpg",
       name: "Ruthik Sai",
       work: "COMMUNICATIONS",
     },
