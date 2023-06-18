@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from "./../../../img/logo_jagrook.png";
+import logo from "https://github.com/parthivisahu/Jagrook/blob/6bc264f70d0e731ece01d60fc688e5f65a7263c0/src/img/logo_jagrook.png";
 export const Head = () => {
   return (
     <div>
