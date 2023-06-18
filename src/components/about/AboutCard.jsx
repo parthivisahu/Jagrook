@@ -3,7 +3,7 @@ import Title from '../common/title/Title'
 import { homeAbout } from '../../dummydata'
 import AWrapper from './AWrapper'
 import "./about.css"
-import worker from "./../../img/sanitation-worker.jpg"
+import worker from "https://github.com/parthivisahu/Jagrook/blob/5722b667ac1fd62bd4199096b511e661cb4e78c1/src/img/sanitation-worker.jpg"
 
 const AboutCard = () => {
   return (
