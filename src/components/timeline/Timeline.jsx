@@ -1,6 +1,6 @@
 import React from 'react'
 import "./timeline.css"
-import timeline from "../../img/Timeline.png"
+import timeline from "https://github.com/parthivisahu/Jagrook/blob/352b003f91c4523abffb4c0a333e2eaeab1301bf/src/img/Timeline.png"
 const Timeline = () => {
   return (
     <>
