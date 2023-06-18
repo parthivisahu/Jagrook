@@ -1,7 +1,7 @@
 import React from "react"
 import BackContact from "../common/back/BackContact"
 import "./contact.css"
-import logo from "../../img/logo_jagrook.png"
+import logo from "src/img/sanitation-worker.jpg"
 const Contact = () => {
   
   return (
