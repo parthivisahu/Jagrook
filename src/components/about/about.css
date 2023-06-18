@@ -1,0 +1,104 @@
+.aboutHome {
+    height: 100%;
+    color: #c0c7a6;
+}
+
+.aboutHome #heading {
+    text-align: center;
+    padding: 0;
+}
+
+.aboutHome .left img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.aboutHome .right {
+    padding: 70px 30px;
+}
+
+.aboutHome .items {
+    margin-top: 40px;
+}
+
+.aboutHome .item {
+    background-color: #e2e9c5;
+    margin-top: 30px;
+    padding: 20px;
+    transition: 0.5s;
+    color: #080808;
+}
+
+.aboutHome .img {
+    width: 100px;
+}
+
+.aboutHome img {
+    width: 60px;
+    height: 60px;
+}
+
+.aboutHome.item h2 {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.aboutHome .item:hover {
+    background-color: #080808;
+    color: rgb(156, 154, 108);
+    cursor: pointer;
+    box-shadow: 0 5px 25px -2px;
+}
+
+.awrapper {
+    background-color: rgba(255, 255, 255, 0.1);
+    height: 200px;
+    color: #c0c7a6;
+}
+
+.awrapper .box {
+    padding: 60px 0px;
+}
+
+.awrapper img {
+    margin-right: 60px;
+}
+
+.awrapper h1 {
+    font-size: 30px;
+}
+
+.awrapper h2 {
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.margin {
+    margin-top: 40.3%;
+}
+
+
+@media screen and (max-width:768px) {
+
+    .aboutHome {
+        margin-top: 90%;
+    }
+
+    .aboutHome .container {
+        flex-direction: column-reverse;
+    }
+
+    .aboutHome .row {
+        width: 100%;
+    }
+
+    .awrapper {
+        height: 80vh;
+    }
+
+    .awrapper .item {
+        height: 50vh;
+    }
+}

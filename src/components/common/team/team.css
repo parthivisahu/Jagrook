@@ -1,0 +1,72 @@
+.team .items {
+    transition: 0.5s;
+}
+
+.team .img {
+    position: relative;
+}
+
+.team img {
+    width: 100%;
+    height: 100%;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    z-index: 11;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.overlay i {
+    background-color: #000;
+    color: #a29999;
+    margin: 5px;
+    transition: 0.5s;
+}
+
+.team .details {
+    padding: 30px;
+    text-align: center;
+}
+
+.team .details h2 {
+    font-weight: 500;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.team .details p {
+    font-size: 15px;
+    color: grey;
+    margin-top: 10px;
+    transition: 0.5s;
+}
+
+.team .items:hover {
+    background-color: rgb(231, 229, 174);
+    color: #090909;
+    cursor: pointer;
+}
+
+.team .items:hover p {
+    color: #030303;
+}
+
+.team .items:hover .overlay {
+    opacity: 1;
+}
+
+.team .items:hover .overlay i:hover {
+    background-color: #1eb2a6;
+    color: rgb(231, 229, 174);
+}
+
+.h1t {
+    color: rgb(231, 229, 174);
+    text-align: center;
+}

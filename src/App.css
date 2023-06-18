@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #222221;
+}
+
+.container {
+  max-width: 85%;
+  margin: auto;
+}
+
+.flexSB {
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 50%;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.3);
+  color: black;
+  transition: 0.5s;
+}
+
+.icon:hover {
+  cursor: pointer;
+  background-color: black;
+  color: antiquewhite;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+.row {
+  width: 50%;
+}
+
+button {
+  padding: 17px 30px;
+  background-color: #cfd8a4;
+  color: rgb(52, 50, 50);
+  font-weight: 560;
+  border: none;
+  margin: 30px 10px 0 0;
+  border-radius: 3px;
+  cursor: pointer;
+  box-shadow: 10px 24px 36px -11px rgba(255, 252, 252, 0.2);
+}
+
+button i {
+  margin-left: 20px;
+}
+
+button:hover {
+  box-shadow: none;
+}
+
+.primary-btn {
+  background-color: #1b1b19;
+  color: #cfd8a4;
+}
+
+
+#heading {
+  text-align: center;
+  padding: 40px 0;
+}
+
+#heading h1 {
+  padding: 5px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: #d9d9a5;
+  text-transform: uppercase;
+}
+
+#heading h3 {
+  font-size: 20px;
+  margin: 10px 0;
+  text-transform: capitalize;
+  text-align: justify;
+}
+
+p {
+  line-height: 30px;
+  font-size: 18px;
+}
+
+.back {
+  background-image: url("/public/about_us.png");
+  background-size: cover;
+  background-attachment: fixed;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100vh;
+  padding-top: 18%;
+  padding-right: 70px;
+  padding-left: 20px;
+  color: rgb(231, 229, 174);
+  text-align: left;
+}
+
+.back h1 {
+  font-size: 60px;
+  font-weight: 400;
+}
+
+.back h2 {
+  font-weight: 500;
+  font-size: 17px;
+  text-transform: uppercase;
+  color: #e4edb7;
+}
+
+.back h3 {
+  font-weight: 500;
+}
+
+.margin {
+  margin-top: 38.3%;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 30px;
+}
+
+.flex {
+  display: flex;
+}
+
+.grid2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+}
+
+.outline-btn {
+  margin: 0;
+  box-shadow: none;
+  border: 2px solid;
+  width: 100%;
+  transition: 0.5s;
+}
+
+.outline-btn:hover {
+  background-color: #222221;
+  color: #d9d9a5;
+}
+
+.grid3 {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 10px;
+}
+
+.padding {
+  padding: 80px 0;
+}
+
+.shadow {
+  box-shadow: 0 5px 25px -2px rgba(0 0 0 /6%);
+  background-color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+
+  .grid,
+  .grid2,
+  .grid3 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .back {
+    background-position: right;
+    padding-top: 50%;
+    height: 80vh;
+
+  }
+
+  .margin {
+    margin-top: 80%;
+  }
+
+}
+
+
+.back2 {
+  background-image: url("/public/Lets_support.png");
+  background-size: cover;
+  background-attachment: fixed;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100vh;
+  padding-top: 18%;
+  padding-right: 70px;
+  padding-left: 20px;
+  color: rgb(231, 229, 174);
+  text-align: left;
+}
+
+.back2 h1 {
+  font-size: 60px;
+  font-weight: 400;
+}
+
+.back2 h2 {
+  font-weight: 500;
+  font-size: 17px;
+  text-transform: uppercase;
+  color: #e4edb7;
+}
+
+.back2 h3 {
+  font-weight: 500;
+}
+
+
+.back3 {
+  background-image: url("../public/team.png");
+  background-size: cover;
+  background-attachment: fixed;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100vh;
+  padding-top: 18%;
+  padding-right: 70px;
+  padding-left: 20px;
+  color: rgb(231, 229, 174);
+  text-align: left;
+}
+
+.back3 h1 {
+  font-size: 60px;
+  font-weight: 400;
+}
+
+.back3 h2 {
+  font-weight: 500;
+  font-size: 17px;
+  text-transform: uppercase;
+  color: #e4edb7;
+}
+
+.back3 h3 {
+  font-weight: 500;
+}
+
+.back3 a {
+  color: #cfd8a4;
+}
+
+
+
+.back4 {
+  background-image: url("../public/team.png");
+  background-size: cover;
+  background-attachment: fixed;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100vh;
+  padding-top: 18%;
+  padding-right: 70px;
+  padding-left: 20px;
+  color: rgb(231, 229, 174);
+  text-align: left;
+}
+
+.back4 h1 {
+  font-size: 60px;
+  font-weight: 400;
+}
+
+.back4 h2 {
+  font-weight: 500;
+  font-size: 17px;
+  text-transform: uppercase;
+  color: #e4edb7;
+}
+
+.back4 h3 {
+  font-weight: 500;
+}
+
+.back4 a {
+  color: #cfd8a4;
+}

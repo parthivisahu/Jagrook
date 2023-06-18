@@ -1,0 +1,28 @@
+.img1 {
+
+    width: 50%;
+    height: 50% !important;
+    margin-left: 25% !important;
+
+}
+
+.th1 {
+    text-align: center;
+    color: rgb(225, 240, 201);
+    font-size: 50px;
+}
+
+.hr1 {
+    width: 100%;
+    color: wheat;
+
+}
+
+.d1 {
+    padding: 10%;
+}
+
+.boxt1 {
+    background-color: black;
+    border: 2px solid wheat;
+}
