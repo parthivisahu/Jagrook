@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Jagrook/static/css/main.b0e8779d.css",
+    "main.js": "/Jagrook/static/js/main.ffb27cf2.js",
+    "static/js/787.f6de6869.chunk.js": "/Jagrook/static/js/787.f6de6869.chunk.js",
+    "static/media/about_us.png": "/Jagrook/static/media/about_us.05758057de1547ecd3de.png",
+    "static/media/Homepage_img2.png": "/Jagrook/static/media/Homepage_img2.3d9bf02663257d1012d6.png",
+    "static/media/team.png": "/Jagrook/static/media/team.f3254524295063433e26.png",
+    "static/media/Lets_support.png": "/Jagrook/static/media/Lets_support.8ea9468070bc0acbdf24.png",
+    "index.html": "/Jagrook/index.html",
+    "main.b0e8779d.css.map": "/Jagrook/static/css/main.b0e8779d.css.map",
+    "main.ffb27cf2.js.map": "/Jagrook/static/js/main.ffb27cf2.js.map",
+    "787.f6de6869.chunk.js.map": "/Jagrook/static/js/787.f6de6869.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b0e8779d.css",
+    "static/js/main.ffb27cf2.js"
+  ]
+}
