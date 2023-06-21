@@ -17,7 +17,7 @@ export const App = () => {
       
       <Router> 
       <Header />
-      <Route path='/' exact component ={Home} active />
+      <Route path='/home' exact component ={Home} active />
       
         <Switch>
            
